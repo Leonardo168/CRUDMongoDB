@@ -37,7 +37,7 @@ public class MongoCrudApplication implements CommandLineRunner{
 		
 		/*Inserir múltiplos documentos*/
 		
-//		Documento documento1 = new Documento("Bo", 30, "San Francisco");
+//		Documento documento1 = new Documento("Bob", 30, "San Francisco");
 //		Documento documento2 = new Documento("Charlie", 35, "Chicago");
 //		List<Documento> documentos = Arrays.asList(documento1, documento2);
 //		try {
@@ -53,8 +53,7 @@ public class MongoCrudApplication implements CommandLineRunner{
 //		List<Documento> documentos = this.documentoService.findAll();
 //		System.out.println("\n\nTodos os documentos:");
 //		for (Documento documento : documentos) {
-//			System.out.println("\nId: " + documento.getId()
-//					+"\nNome: " + documento.getNome()
+//			System.out.println("\nNome: " + documento.getNome()
 //					+"\nIdade: " +  documento.getIdade()
 //					+"\nCidade: " +  documento.getCidade()
 //					);
@@ -100,8 +99,7 @@ public class MongoCrudApplication implements CommandLineRunner{
 //                docs -> {
 //                    System.out.println("\nDocumentos atualizados:");
 //                    for (Documento documento : docs) {
-//                        System.out.println("\nID: " + documento.getId()
-//                        + "\nNome: " + documento.getNome()
+//                        System.out.println("\nNome: " + documento.getNome()
 //                        + "\nIdade: " + documento.getIdade()
 //                        + "\nCidade: " + documento.getCidade());
 //                    }
@@ -113,7 +111,7 @@ public class MongoCrudApplication implements CommandLineRunner{
 		
 		/*Excluir um único documento*/
 		
-//		String nome = "Bo";
+//		String nome = "Bob";
 //		if(this.documentoService.deleteByNome(nome)) {
 //			System.out.println("\nDocumento excluido");
 //		} else {
